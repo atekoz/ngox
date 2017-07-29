@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $(".dropdown-button").dropdown();
+  $(".button-collapse").sideNav();
+  $('#button-search').click(function(event){
+    $('#search-box').toggle(200,function(){
+      $('#nav-search').toggle(300);
+    });
+  });
+  $('#close-search').click(function(event){
+    $('#nav-search').slideUp(400,function(){
+      $('#search-box').hide();
+    });
+  });
+});
