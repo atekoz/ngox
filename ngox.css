@@ -1,0 +1,32 @@
+body{background:#ecf0f0;}
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #0088ff;
+  -webkit-box-shadow: 0 1px 0 0 #0088ff;
+          box-shadow: 0 1px 0 0 #0088ff;
+}
+.no-border_box{  border-bottom:none !important;-webkit-box-shadow:none !important;box-shadow:none !important;}
+
+.ngox{background-color:#0088ff !important;}
+.ngox darken-1{background-color:#0055ff !important;}
+.ngox_{color:#0088ff !important;}
+.brand-logo img{height:45px;width:45px;float:left;margin:10px;}
+.brand-logo h1{font-size:inherit;display:inline-block;margin:inherit;}
+.f30{font-size:30px !important;}
+.input-field input[type=search] + label{top:-.8rem;}
+.side-nav-header h1{margin:0;font-size:2rem;padding:1.25rem;}
+#side-nav-search{padding:0 1.5rem;}
+#side-nav-search .card{padding:.3rem;}
+#side-nav-search input[type=search]{margin:0;border:0;}
+#side-nav-search i.material-icons{position:absolute;right:.5rem;line-height:3rem;top:.5rem;font-weight:500;}
